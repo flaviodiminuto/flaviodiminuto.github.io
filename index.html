@@ -1,168 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Leclerc bate Vettel e se torna o primeiro monegasco na história a conquistar pole na Fórmula 1 | Fórmula 1 | Globoesporte</title>
+    <title>Curr&iacute;culo: Fl&aacute;vio da Silva Santos</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+    <!--My own css style sheet -->
+    <link rel="stylesheet" type="text/css" href="../aula02/style-curriculo.css"/>
 </head>
-
-
 <body>
-<!-- Parte superior da tela com os menus-->
-    <header>
- <!-- Menu superior esquerdo-->
-        <div id="top_menu_left">
-            <ul>
-                <li><a href="https://www.globo.com/" id="globo">globo.com</a></li>
-                <li><a href="https://g1.globo.com/" id="g1">g1</a></li>
-                <li><a href="https://globoesporte.globo.com/" id="globoesporte">globoesporte</a></li>
-                <li><a href="https://gshow.globo.com/" id="gshow">gshow</a></li>
-                <li><a href="https://globoplay.globo.com/" id="videos">videos</a></li>
+<header>
+    <h1 id="titulo" class="d-block d-flex justify-content-center texto-branco ">Fl&aacute;vio da Silva Santos</h1>
+    <div class="d-block d-flex justify-content-center ">
+        <img id="foto-perfil" alt="Foto do Fl&aacute;vio com um edif&iacute;cio ao fundo"
+             src="../image/foto-perfil.jpg"
+             class="img-fluid rounded-circle mx-2 mb-2 img-profile  img-thumbnail"/> <!-- foto -->
+    </div>
+    <h2 class="d-block d-flex justify-content-center texto-branco">Desenvolvedor Java</h2>
+</header>
+
+<div class="container">
+    <div class="row d-block d-flex justify-content-center ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+                    <li class="nav-item"><a href="#formacoes" class="nav-link">Formações</a></li>
+                    <li class="nav-item"><a href="#cursos" class="nav-link">cursos</a></li>
+                    <li class="nav-item dropdown" ><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Habilidades e conhecimentos</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#programacao" class="nav-link">Linguagens de programação</a></li>
+                            <li class="dropdown-item"><a href="#plataformas" class="nav-link">Plataformas</a></li>
+                            <li class="dropdown-item"><a href="#ferramentas-programas" class="nav-link">Ferramentas e programas</a></li>
+                            <li class="dropdown-item"><a href="#outros-conhecimentos" class="nav-link">Outros conhecimentos</a></li>
+                            <li class="dropdown-item"><a href="#idiomas" class="nav-link">Idiomas</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <ul id="contato">
+                <li>flavio.diminuto@outlook.com</li>
+                <li><a href="https://github.com/flaviodiminuto">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/flavio-da-silva-santos-334888174/">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul id="localidade">
+                <li style="margin-top:10px">S&atilde;o paulo - SP</li>
+                <li>Brasil</li>
             </ul>
         </div>
 
-<!-- Menu superior direito-->
-        <div id = "top_menu_right">
+    </div>
+    <div class="row d-flex justify-content-cente">
+        <div id="experiencia" class="align-items-start col">
+            <h3>Experi&ecirc;ncia</h3>
             <ul>
-                <li><a href="http://assine.globo.com/globocom/index.jsp?origemId=148">ASSINE JÁ </a> </li>
-                <li><a href="https://minhaconta.globo.com/">MINHA CONTA</a></li>
-                <li><a href="https://globoesporte.globo.com/motor/formula-1/noticia/leclerc-bate-vettel-e-se-torna-o-primeiro-monegasco-na-historia-a-conquistar-pole-na-formula-1.ghtml#">E-MAIL</a></li>
-                <li><button type="button">ENTRAR ></button></li>
-            </ul>   
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"><h4>Desenvolvedor Trainee</h4></li>
+                        <li class="experiencia-empresa">MultiPortal</li>
+                        <li class="experiencia-periodo">Atualmente - Desde 02/2019</li>
+                        <li class="experiencia-atribuicao">Analisar, elaborar e desenvolver funcionalidades sob demanda dos clientes, ajustes nos itens existentes nos sistemas em produção utilizando as tipicas do ecossistema Java WEB.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"></li><h4>Est&aacute;gio Supervisionado</h4></li>
+                        <li class="experiencia-empresa">IK Solution</li>
+                        <li class="experiencia-periodo">03/2018 - 02/2019</li>
+                        <li class="experiencia-atribuicao">Aux&iacute;lio as opera&ccedil;&otilde;es gerais do segmento da empresa com foco no relacionamento com parceiros do neg&oacute;cio, organiza&ccedil;&atilde;o e distribui&ccedil;&atilde;o de demandas dos clientes aos parceiros para atendimento, suporte e acompanhamento aos atendimentos dos t&eacute;cnicos em campo.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"><h4>Técnico de Atendimento</h4></li>
+                        <li class="experiencia-empresa">Claro S.A.</li>
+                        <li class="experiencia-periodo">02/2017 - 08/2017</li>
+                        <li class="experiencia-atribuicao">Avaliar e solucionar falhas nos serviços de CATV, internet, telefone de clientes domestico ou empresarial.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"><h4>Técnico de micro informática</h4></li>
+                        <li class="experiencia-empresa">VO2 it </li>
+                        <li class="experiencia-periodo">12/2013 - 02/2014</li>
+                        <li class="experiencia-atribuicao">Efetuar a troca de Computadores antigos por novos realizando backup de dados do usuário, arquivos de e-mail, remoção do computador antigo do dominio e inserção o novo no dominio e configurando programas necessários a cada usuário.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"><h4>Atendente / Técnico de manutenção</h4></li>
+                        <li class="experiencia-empresa">Lan Mania</li>
+                        <li class="experiencia-periodo">02/2009 - 06/2009</li>
+                        <li class="experiencia-atribuicao">Atendimento ao cliente,Percepção da necessidade do cliente,Implantação de novos serviços,manutenção de computadores,instalação e configuração de softwares.</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="experiencia-cargo"><h4>Operador de Supermercado</h4></li>
+                        <li class="experiencia-empresa">Companhia Brasileira de Distribuição</li>
+                        <li class="experiencia-periodo">02/2007 - 10/2007</li>
+                        <li class="experiencia-atribuicao">Operacional de mercearia /receber e descarregar mercadoria,abastecimento e reposição da loja,Organização e gestão de estoque.</li>
+                    </ul>
+                </li>
+            </ul>
         </div>
-
-        
-        <!-- Segundo Menu Superio-->
-        <div id="top_menu_full">
-            <a></a>
-            
-        </div>
-    </header>
-
-<!-- Parte principal da tela onde aparece a reportagem-->
- <article>
-    <h1>Leclerc bate Vettel e se torna o primeiro monegasco na história a conquistar pole na Fórmula 1</h1>
-    <h2>Ferrari volta a sobrar na classificação no Barein e faz novamente a dobradinha, com a Mercedes ocupando a segunda fila e a McLaren voltando a ficar entre os primeiros</h2>
-
-    <h3>Ferrari volta a sobrar na classificação no Barein e faz novamente a dobradinha, com a Mercedes ocupando a segunda fila e a McLaren voltando a ficar entre os primeiros</h3>
-
-    <p  >Por GloboEsporte.com — Sakhir, Barein
-        30/03/2019 13h03 Atualizado há 25 minutos
-    </p>
-    <img src="https://s2.glbimg.com/KXwe5o836eCaeUat9Avgq7H4lWs=/0x0:1024x682/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/f/6/GALABPTe2upzg7KsW7PQ/d26ps-xwsaeo-n8.jpg" title="Leclerc bate Vettel e se torna o primeiro monegasco na história a conquistar pole na Fórmula 1"> 
-    <div class="descricao_foto">Foto: Divulgação</div>
-
- <p>
-        Charles Leclerc entrou neste sábado para a história da Fórmula 1 ao se tornar, no Barein, o primeiro piloto de Mônaco a conquistar uma pole position. Na etapa final do treino classificatório, Leclerc cravou 1m27s866, novo recorde da pista, superando o companheiro Sebastian Vettel em quase 0s3. A exemplo do que já havia acontecido nos treinos livres, o domínio da Ferrari foi absoluto, e em nenhum momento Vettel ou Leclerc tiveram a pole ameaçada.
- </p>
- <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">And it’s pole position for <a href="https://twitter.com/hashtag/Charles16?src=hash&amp;ref_src=twsrc%5Etfw">#Charles16</a> in the <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a>. Great! 🥳 <a href="https://twitter.com/hashtag/SF90?src=hash&amp;ref_src=twsrc%5Etfw">#SF90</a> <a href="https://twitter.com/hashtag/essereFerrari?src=hash&amp;ref_src=twsrc%5Etfw">#essereFerrari</a> <a href="https://t.co/2cd41CjoSx">pic.twitter.com/2cd41CjoSx</a></p>&mdash; Scuderia Ferrari (@ScuderiaFerrari) <a href="https://twitter.com/ScuderiaFerrari/status/1112027313078784000?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
- <p>
-        Mesmo com o conhecido modo de mapeamento de motor com mais potência na classificação, a Mercedes não passou da segunda fila, com Lewis Hamilton ocupando a terceira colocação, a 0s010 de Vettel, enquanto Valtteri Bottas, vencedor da corrida de abertura da temporada, na Austrália, foi o quarto colocado, 0s066 atrás do pentacampeão.
- </p>
- <section id="votacao">
-        <span>Quem vencerá o GP do Barein?</span>
-        <a>VOTE AQUI</a>
- </section>
- <p>
-        Max Verstappen foi o único piloto da RBR entre os dez primeiros, em quinto, e o grid teve boas surpresas no top 10, sobretudo a McLaren, que avançou ao Q3 com seus dois carros, Carlos Sainz em sétimo e Lando Norris em décimo. A Haas também teve um bom treino, com Kevin Magnussen ficando em sexto, dois postos à frente de Romain Grosjean. Kimi Raikkonen (Alfa Romeo) foi o nono.
- </p>
- <section id="fotos_1" class="fotos">
-       <h3>A TV Globo e o GloboEsporte.com transmitem AO VIVO a corrida deste domingo a partir do meio-dia, com narração de Galvão Bueno e comentários de Reginaldo Leme e Luciano Burti. O SporTV2 exibe a reprise às 16h05.</h3> 
-
-        <h2>Grid de largada</h2>
-        <img src="https://s2.glbimg.com/7HtudMqwRRjX16Slsqx3i1aX43U=/0x0:1024x576/600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/C/9/boIn8SRqCbeegXUiPzNw/d26zry5wwaahdbt.jpg" >
-        <div clas="descricao_foto">Grid de largada do GP do Barein — Foto: Reprodução/rede Social</div>
-
-        <img src="https://s2.glbimg.com/oDGbMUO5ZPc15mfB6fURjm3MinY=/0x0:4548x3033/600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/o/c/V11d5kRBmZAHCBg61RKw/gettyimages-1139298959.jpg">
-        <div class="descricao_foto">Vettel, Leclerc e Hamilton, os três primeiros no grid em Sakhir — Foto: Getty Images</div>
-
- </section>
- <section id="twitter1" clas="twitters">
-        <h2>O que disseram:</h2>
-        <p><span>Leclerc, pole position: </span>"Estou extremamente feliz. Seb é um piloto incrível, mas hoje estou muito feliz de estar na pole"</p>
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">LECLERC: &quot;I&#39;m extremely happy. Seb is an amazing driver, but today I&#39;m very happy to be on pole&quot; <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/yxVjz8u2ab">pic.twitter.com/yxVjz8u2ab</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112026161272537089?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-
- </section>
- <section id = "twitter2" clas="twitters">
-        <p><span>Vettel, segundo no grid:</span> "Talvez eu tenha sido um tanto tímido no segundo setor, mas acho que Charles fez um trabalho muito bom hoje e ele merece estar na pole. O principal é que fizemos o trabalho, nesse fim de semana o carro está bem melhor.</p>
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">VETTEL: &quot;Maybe I was a bit shy in the second sector but I think Charles did a very good job today and he deserves to be on pole.<br><br>The main thing is that we got the job done, this weekend the car felt a lot better&quot; <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/6SISdepKdc">pic.twitter.com/6SISdepKdc</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112026233922039808?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
- </section>
- <section id="twitter3" class="twitters">
-        <p><span>Hamilton, terceiro no grid: </span>"Charles fez um trabalho incrível. Amanhã é o dia mais importante e vamos dar à Ferrari uma boa luta"</p>
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">HAMILTON: &quot;Charles did an incredible job. Tomorrow&#39;s the more important day and we&#39;ll give Ferrari a good fight&quot; <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/VEg9PnNSeK">pic.twitter.com/VEg9PnNSeK</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112026502110031873?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
- </section>
-<section id="twitter4" class="twitters">
-        <h2>O que você precisa saber?</h2>
-        <p>- Ferrari conquistou a quinta pole no Barein, igualando a Mercedes.</p>
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">BREAKING: <a href="https://twitter.com/Charles_Leclerc?ref_src=twsrc%5Etfw">@Charles_Leclerc</a> takes his debut pole in Bahrain<br><br>He becomes F1&#39;s 99th pole sitter in our 999th race 👏<a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/Gn6DqfPuIt">pic.twitter.com/Gn6DqfPuIt</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112022895419633664?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-</section>
-<section id="twitter5" class="twitters">
-    <p>- Na corrida 999 da Fórmula 1, Leclerc se tornou o 99º piloto a fazer uma pole.</p>
-    <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">Locking out the second row for Sunday&#39;s <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a>. Let&#39;s give those red cars something to worry about tomorrow! 👊 <a href="https://t.co/J5Aq5MyBoK">pic.twitter.com/J5Aq5MyBoK</a></p>&mdash; Mercedes-AMG F1 (@MercedesAMGF1) <a href="https://twitter.com/MercedesAMGF1/status/1112022817699229696?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-</section>
-<section id="twitter6" class="twitters">
-    <p>- Pela primeira vez Bottas foi superado por um companheiro de equipe em classificações no Barein.</p>
-    <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">Solid effort! 💪🇧🇭 Q3 comes to an end with <a href="https://twitter.com/Carlossainz55?ref_src=twsrc%5Etfw">@Carlossainz55</a> in P7 and <a href="https://twitter.com/LandoNorris?ref_src=twsrc%5Etfw">@LandoNorris</a> in P10.<br><br>From Bahrain to everyone back at base in Woking, nice work team.🤝 <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> <a href="https://t.co/tqw8ypFJv7">pic.twitter.com/tqw8ypFJv7</a></p>&mdash; McLaren (@McLarenF1) <a href="https://twitter.com/McLarenF1/status/1112022698073485312?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-    
-    <p>- McLaren não tinha os dois carros entre os dez primeiros no grid desde a Malásia, em 2017.</p>
-</section>
-<section id="twitter8" class="twitters">
-        <h2>Q1 - 18 minutos e cinco eliminados</h2>
-        O domínio da Ferrari se repetiu desde o Q1, com Charles Leclerc superando novamente Sebastian Vettel, que deu uma grande travada de pneus. Assim como no terceiro treino livre, a diferença para as demais equipes foi enorme, com Hamilton em terceiro a sete décimos.
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">BIG lock up for Vettel at Turn 1 😮<a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/DeUNL2hYpM">pic.twitter.com/DeUNL2hYpM</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112010551926890496?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-<section id="twitter9" class="twitters">
-        <p>Diversos pilotos enfrentaram problemas de tráfego. No incidente mais gritante, Lando Norris foi atrapalhado por Romain Grosjean na última curva do traçado e reclamou bastante pelo rádio. O incidente foi investigado pelos comissários, e o francês ainda pode ser punido.</p>
-        View image on Twitter
-        View image on Twitter
-        
-        <blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">🙈<br><br>A close call between <a href="https://twitter.com/RGrosjean?ref_src=twsrc%5Etfw">@RGrosjean</a> and <a href="https://twitter.com/LandoNorris?ref_src=twsrc%5Etfw">@LandoNorris</a> <a href="https://twitter.com/hashtag/BahrainGP?src=hash&amp;ref_src=twsrc%5Etfw">#BahrainGP</a> 🇧🇭 <a href="https://twitter.com/hashtag/F1?src=hash&amp;ref_src=twsrc%5Etfw">#F1</a> <a href="https://t.co/RFfH4DV7W2">pic.twitter.com/RFfH4DV7W2</a></p>&mdash; Formula 1 (@F1) <a href="https://twitter.com/F1/status/1112009627204505605?ref_src=twsrc%5Etfw">30 de março de 2019</a></blockquote>
-
-        <p>A disputa pelas últimas vagas no Q2 foi dramática. Pierre Gasly só avançou na última tentativa, enquanto Daniel Ricciardo respirou aliviado apenas quando a bandeira quadriculada já estava sendo agitada. Seu companheiro na Renault, Nico Hulkenberg, foi eliminado.</p>
-</section>
-</section>
-<section id="twitter10" class="twitters">
-        <h2>Eliminados:</h2>
-        <ul>
-            <li>16º Antonio Giovinazzi (Alfa Romeo)</li>
-            <li>17º Nico Hulkenberg (Renault)</li>
-            <li>18º Lance Stroll (Racing Point)</li>
-            <li>19º George Russell (Williams)</li>
-            <li>20º Robert Kubica (Williams)</li>
+<div class="col">
+    <div id="formacoes">
+        <h3>Forma&ccedil;&otilde;es</h3>
+        <ul class="list-formacoes">
+            <li>
+                <ul class="formacao">
+                    <li class="titulo-formacao"><h4>Tecnologo</h4></li>
+                    <li class="titulo-formacao">Analise e desenvolvimento de sistemas</li>
+                    <li class="titulo-informacao">Faculdade de Tecnologia Zona Sul (Fatec Zona Sul)</li>
+                    <li class="titulo-informacao">07/2020</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="formacao">
+                    <li class="titulo-formacao"><h4>T&eacute;cnico</h4></li>
+                    <li class="titulo-formacao">T&eacute;cnico em redes de computadores</li>
+                    <li class="titulo-informacao">Senai Su&iacute;co-Brasileiro Paulo Ernesto Tolle</li>
+                    <li class="titulo-informacao">02/2012</li>
+                </ul>
+            </li>
+            <li>
+                <ul class="formacao">
+                    <li class="titulo-formacao"><h4>Ensino m&eacute;dido</h4></li>
+                    <li class="titulo-formacao">Escola Estadual Professor Humberto Alfredo Pucca</li>
+                    <li class="titulo-informacao">12/2007</li>
+                </ul>
+            </li>
         </ul>
-        <img src="https://s2.glbimg.com/8iE6WECOtGqN-38h_hFeH5OccJ0=/0x0:1024x576/600x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2019/R/N/ofO4VXSyCu0VLKCWJbBg/d26t55swsaec-uh.jpg" title="Resultado do Q2 na classificação do Barein -- Foto: Reprodução/Rede social">
-        
-        <div class="descricao_foto">Resultado do Q2 na classificação no Barein — Foto: Reprodução/rede social</div>
-        
-        
-        
-        
-</section>
-<section id="twitter11" class="twitters">
+    </div>
+    <div id="cursos">
+        <h3>Cursos</h3>
+        <ul>
+            <li>
+                <ul>
+                    <li class="titulo-formacao">Android Room (ORM)</li>
+                    <li>Alura Cursos</li>
+                    <li>03/2019</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="titulo-formacao">Desenvolvimento com Kotlin</li>
+                    <li>Alura Cursos</li>
+                    <li>02/2019</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="titulo-formacao">Lingua inglesa</li>
+                    <li>Escola de Idiomas Wizzard </li>
+                    <li>06/2010 - 06/2014</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li class="titulo-formacao">AutoCAD</li>
+                    <li>Senai Su&iacute;co-Brasileiro Paulo Ernesto Tolle</li>
+                    <li>07/2011</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+    </div> <!-- fim linha experiencia, formacoes e cursos-->
 
-</section>
-<section id="twitter7" class="twitters">
 
-</section>
-<section id="twitter7" class="twitters">
+    <div id="skills">
+        <h3>Habilidades e conhecimentos</h3>
+        <ul class="row">
+            <li id="programacao" class="titulo-skill">
+                <h4>Linguagens de programação</h4>
+                <ul>
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>C#</li>
+                    <li>C/C++</li>
+                    <li>PHP</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>ASP.NET</li>
+                </ul>
+            </li>
+            <li id="plataformas" class="titulo-skill">
+                <h4>Plataformas</h4>
+                <ul>
+                    <li>Windows (95, 98, XP, 7, 8 e 10)</li>
+                    <li>Linux</li>
+                    <li>Mac OS</li>
+                    <li>FreeBSD</li>
+                </ul>
+            </li>
+            <li id="ferramentas-programas" class="titulo-skill">
+                <h4>Ferramentas e programas</h4>
+                <ul>
+                    <li>Unity 3D</li>
+                    <li>Blender</li>
+                    <li>Corel Draw</li>
+                    <li>Gimp</li>
+                    <li>Intellij IDEA</li>
+                    <li>Eclipse IDE</li>
+                    <li>Android Studio</li>
+                    <li>Atom</li>
+                    <li>Maven</li>
+                    <li>Gradle</li>
+                    <li>AutoCAD</li>
+                </ul>
+            </li>
+            <li id="outros-conhecimentos" class="titulo-skill">
+                <h4>Outros conhecimentos</h4>
+                <ul>
+                    <li>Programação orientada a objeto</li>
+                    <li>Aplicações android</li>
+                    <li>JSON</li>
+                    <li>JSF</li>
+                    <li>XML</li>
+                </ul>
+            </li>
+            <li id="idiomas" class="titulo-skill">
+                <h3>Idiomas</h3>
+                <ul>
+                    <li>Português nativo</li>
+                    <li>Inglês intermediário</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-</section>
-<section id="twitter7" class="twitters">
-
-</section>
-<section id="twitter7" class="twitters">
-
-</section>
-<section id="twitter7" class="twitters">
-
-</section>
-</article>
+</div>
 </body>
-
 </html>
