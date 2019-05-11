@@ -1,0 +1,51 @@
+
+header a{
+    text-decoration: none;
+}
+header div{
+    display: inline-block;
+    text-decoration: none;  
+}
+header ul li{
+    display: inline;
+
+}
+header #top_menu_left{
+    float: left;
+}
+
+header #top_menu_right{
+    float: right;
+}
+header #top_menu_right a{
+    color: rgb(90, 90, 90);
+}
+
+header #top_menu_left a{
+    font-family:Roboto,Open Sans,Arial,sans-serif;
+    font-weight: bold;
+    border-right: 2px rgb(187, 187, 187) solid;
+    padding :  5px 10px;
+
+}
+
+header #top_menu_left #globo{
+    color: rgb(28, 113, 211);
+}
+
+header #top_menu_left #g1{
+    color: rgb(209, 66, 66);
+}
+
+header #top_menu_left #globoesporte{
+    color: rgb(39, 136, 76);
+}
+
+header #top_menu_left #gshow{
+    color: rgb(207, 129, 39);
+}
+
+header #top_menu_left #videos{
+    color: rgb(7, 79, 161); 
+}
+
